@@ -1,0 +1,14 @@
+{
+  "name": "",
+  "id": "",
+  "location": "",
+  "type": "",
+  "kind": "AccountKind.DocumentDB",
+  "properties": {
+    "documentEndpoint": "",
+    "tableEndpoint": "",
+    "gremlinEndpoint": "",
+    "cassandraEndpoint": "",
+    "capabilities": []
+  }
+}

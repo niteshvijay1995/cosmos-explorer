@@ -1,15 +1,3 @@
-import { AccountKind } from "../../Common/Constants";
+import emulatorConfig from "./emulatorConfig.json";
 
-export const emulatorAccount = {
-  name: "",
-  id: "",
-  location: "",
-  type: "",
-  kind: AccountKind.DocumentDB,
-  properties: {
-    documentEndpoint: "",
-    tableEndpoint: "",
-    gremlinEndpoint: "",
-    cassandraEndpoint: "",
-  },
-};
+export const emulatorAccount = emulatorConfig;
